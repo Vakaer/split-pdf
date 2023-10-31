@@ -1,0 +1,30 @@
+.textLayer{
+    display: none;
+}
+
+.page-style{
+    background-color: aqua;
+    z-index: 1;
+    padding: 0.5rem;
+
+   
+}
+.icon{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    z-index: 11111;
+    height: 30px;
+    width: 30px;
+}
+.page-style canvas{
+    box-shadow: 1px 9px 37px -21px rgba(125,122,122,0.75);
+    -webkit-box-shadow: 1px 9px 37px -21px rgba(125,122,122,0.75);
+    -moz-box-shadow: 1px 9px 37px -21px rgba(125,122,122,0.75);
+}
+
+.d-none{
+    display: none;
+}
+
+
